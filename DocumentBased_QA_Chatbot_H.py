@@ -8,7 +8,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import FAISS
 
 # 1. Set API Keys 
-os.environ["GROQ_API_KEY"] = "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"  
+os.environ["GROQ_API_KEY"] = "GROQ_API_KEY"  
 
 # 2. Load and Split a Text Document
 file_path = "sample.txt"
